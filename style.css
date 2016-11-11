@@ -293,7 +293,7 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
 }
 
 .main-price {
-    display: flex;
+    display: block;
     width: 270px;
     height: 80px;
 /*    background: lightblue;*/
@@ -303,13 +303,18 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
 }
 .main-price > p:nth-child(1) {
     font: italic 900 14.01px / 18.012px Roboto;
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
 }
 .main-price > p:nth-child(2) {
     font: italic 900 18.01px Roboto;
 }
-.main-price > p > strike {
+.main-price strike {
     color: #e24602;
     font: italic 900 14.01px Roboto;
+    margin-left: 130px;
+/*    margin-top: -20px;*/
 }
 
 .pin-new {
