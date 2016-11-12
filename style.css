@@ -187,6 +187,12 @@ body {
     font-size: 14px;
     font-weight: 800;
 }
+.buy-special:hover {
+    background-color: orange;
+}
+.buy-special:active {
+    background-color: lightcoral;
+}
 
 .center {
     margin: auto;
@@ -604,6 +610,12 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
     color: #ffffff;
     font: 400 16px / 20px Roboto;
     text-decoration: none;
+}
+.product-price p a:hover {
+    background-color: orange;
+}
+.product-price p a:active {
+    background-color: lightcoral;
 }
 .product-description div:nth-child(1) {
     background-color: #26d2fc;
