@@ -446,7 +446,7 @@ body > div > div.container-menu > div.new-product > div:nth-child(4) > div:nth-c
     list-style-type: none;
     display: inline-block;
     float: left;
-    margin-left: 120px;
+    margin-left: 100px;
 /*    background: #ffffff;*/
     margin-top: auto;
 }
@@ -665,6 +665,7 @@ body > div > div.container-menu-product > div > div.product-catalog > div > div:
 .company-adres {
     display: inline-block;
     margin-left: 30px;
+    width: 300px;
     color: #333333;
     font: 400 14px / 14px Roboto;
 }
@@ -678,6 +679,12 @@ body > div > div.container-menu-product > div > div.product-catalog > div > div:
     color: #353535;
     font: 900 18px / 14px Roboto;
     margin-bottom: 10px;
+}
+iframe {
+    margin: auto;
+    height: 360px;
+    width: 500px;
+    margin-left: -100px;
 }
 
 h1 {
@@ -857,9 +864,4 @@ table, td {
 .contacts {
     margin-left: 30px;
     margin-bottom: 10px;
-}
-iframe {
-/*    margin: auto;*/
-    height: 374px;
-    width: 100%;
 }
